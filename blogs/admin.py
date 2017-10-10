@@ -1,9 +1,7 @@
 from django.contrib import admin
 from django.core.management import call_command
 from django.utils.html import format_html
-
 from cms.admin import ContentManageableModelAdmin
-
 from .models import BlogEntry, Contributor, Translation, Feed, FeedAggregate
 
 
