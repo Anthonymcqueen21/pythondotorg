@@ -6,7 +6,6 @@ import markupfield.fields
 import django.utils.timezone
 from django.conf import settings
 
-
 class Migration(migrations.Migration):
 
     dependencies = [
