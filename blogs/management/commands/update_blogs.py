@@ -4,9 +4,9 @@ from django.utils.timezone import now
 from ...models import BlogEntry, RelatedBlog, Feed
 from ...parser import get_all_entries, update_blog_supernav
 
-
 class Command(BaseCommand):
     """ Update blog entries and related blog feed data """
+    """ feeding more data """
 
     def handle(self, **options):
         for feed in Feed.objects.all():
